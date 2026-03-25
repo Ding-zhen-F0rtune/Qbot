@@ -1,0 +1,15 @@
+# 忽略特定的配置文件
+config.json
+database_settings.xml
+
+# 忽略所有包含敏感信息的环境变量文件
+.env
+.env.local
+.env.development
+
+# 忽略本地 IDE（代码编辑器）生成的配置文件夹
+.vscode/
+.idea/
+
+# 忽略所有的日志文件（使用星号 * 作为通配符）
+*.log
